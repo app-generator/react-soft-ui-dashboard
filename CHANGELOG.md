@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.1] 2021-10-08
+### Fixes:
+
+- #1 - Compilation Error (Windows Env): Delete 'cr' [prettier/prettier]
+- #2 - Compilation Error (Windows Env): 'React' must be in scope when using JSX
+
 ## [2.0.0] 2021-10-08
 ### Initial Import
 
