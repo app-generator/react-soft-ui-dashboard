@@ -47,6 +47,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
+        "docker": "docker-compose pull ; docker-compose build ; docker-compose up",
         "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
     },
     "eslintConfig": {
