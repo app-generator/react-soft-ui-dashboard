@@ -1,6 +1,6 @@
 # [Soft UI Dashboard React](http://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard) 
 
-> Forked from [Soft UI Dashboard React](https://github.com/creativetimofficial/soft-ui-dashboard-react)
+> Forked from [Soft UI Dashboard React](https://github.com/creativetimofficial/soft-ui-dashboard-react) - a Creative-Tim OSS product
 
 <br />
 
