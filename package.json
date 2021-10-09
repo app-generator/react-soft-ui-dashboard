@@ -1,6 +1,6 @@
 {
     "name": "react-soft-ui-dashboard",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "private": true,
     "author": "Creative Tim & AppSeed",
     "license": "See license in https://www.creative-tim.com/license",
@@ -49,7 +49,10 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "docker": "docker-compose pull ; docker-compose build ; docker-compose up",
+        "docker_pull": "docker-compose pull",
+        "docker_build": "docker-compose build",
+        "docker_up": "docker-compose up",
+        "docker": "yarn docker_pull & yarn docker_build & yarn docker_up",
         "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
     },
     "eslintConfig": {

@@ -1,5 +1,13 @@
 # Change Log
 
+## [2.0.3] 2021-10-09
+### Improvements
+
+- Added Usable JWT Authentication Flow
+  - Login/Logout/Register
+- Added `Docker` target in `package.json`
+  - `yarn docker`
+
 ## [2.0.2] 2021-10-08
 ### Improvements
 
