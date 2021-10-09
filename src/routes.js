@@ -64,6 +64,7 @@ const routes = [
     icon: <Shop size="12px" />,
     component: Dashboard,
     noCollapse: true,
+    protected: true,
   },
   {
     type: "collapse",
@@ -73,6 +74,7 @@ const routes = [
     icon: <Office size="12px" />,
     component: Tables,
     noCollapse: true,
+    protected: true,
   },
   {
     type: "collapse",
@@ -82,6 +84,7 @@ const routes = [
     icon: <CreditCard size="12px" />,
     component: Billing,
     noCollapse: true,
+    protected: true,
   },
   {
     type: "collapse",
@@ -91,6 +94,7 @@ const routes = [
     icon: <Cube size="12px" />,
     component: VirtualReality,
     noCollapse: true,
+    protected: true,
   },
   {
     type: "collapse",
@@ -100,6 +104,7 @@ const routes = [
     icon: <Settings size="12px" />,
     component: RTL,
     noCollapse: true,
+    protected: true,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },
   {
@@ -110,6 +115,7 @@ const routes = [
     icon: <CustomerSupport size="12px" />,
     component: Profile,
     noCollapse: true,
+    protected: true,
   },
   {
     type: "collapse",
