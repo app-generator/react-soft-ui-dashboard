@@ -25,6 +25,7 @@
         "@testing-library/react": "^11.1.0",
         "@testing-library/user-event": "^12.1.10",
         "chart.js": "^3.4.1",
+        "axios": "^0.21.1",
         "chroma-js": "^2.1.2",
         "clsx": "^1.1.1",
         "jss": "^10.7.1",
