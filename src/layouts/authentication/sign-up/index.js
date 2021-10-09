@@ -36,10 +36,54 @@ import Separator from "layouts/authentication/components/Separator";
 // Images
 import curved6 from "assets/images/curved-images/curved14.jpg";
 
+import AuthApi from "../../../api/auth";
+import { useHistory } from "react-router-dom";
+
 function SignUp() {
+  const history = useHistory();
   const [agreement, setAgremment] = useState(true);
+  const [firstName, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [buttonText, setButtonText] = useState("Sign up");
+  const [error, setError] = useState(undefined);
 
   const handleSetAgremment = () => setAgremment(!agreement);
+
+  const register = async (event) => {
+    if (event) {
+      event.preventDefault();
+    }
+    if (firstName === "") {
+      return setError("You must enter your first name.");
+    }
+    if (email === "") {
+      return setError("You must enter your email.");
+    }
+    if (password === "") {
+      return setError("You must enter a password.");
+    }
+    try {
+      setButtonText("Signing up");
+      let response = await AuthApi.Register({
+        username: firstName,
+        email,
+        password,
+      });
+      if (response.data && response.data.success === false) {
+        setButtonText("Sign up");
+        return setError(response.data.msg);
+      }
+      return history.push("/authentication/sign-in");
+    } catch (err) {
+      console.log(err);
+      setButtonText("Sign up");
+      if (err.response) {
+        return setError(err.response.data.msg);
+      }
+      return setError("There has been an error.");
+    }
+  };
 
   return (
     <BasicLayout
@@ -60,13 +104,33 @@ function SignUp() {
         <SuiBox pt={2} pb={3} px={3}>
           <SuiBox component="form" role="form">
             <SuiBox mb={2}>
-              <SuiInput placeholder="Name" />
+              <SuiInput
+                onChange={(event) => {
+                  setName(event.target.value);
+                  setError(undefined);
+                }}
+                placeholder="Name"
+              />
             </SuiBox>
             <SuiBox mb={2}>
-              <SuiInput type="email" placeholder="Email" />
+              <SuiInput
+                onChange={(event) => {
+                  setEmail(event.target.value);
+                  setError(undefined);
+                }}
+                type="email"
+                placeholder="Email"
+              />
             </SuiBox>
             <SuiBox mb={2}>
-              <SuiInput type="password" placeholder="Password" />
+              <SuiInput
+                onChange={(event) => {
+                  setPassword(event.target.value);
+                  setError(undefined);
+                }}
+                type="password"
+                placeholder="Password"
+              />
             </SuiBox>
             <SuiBox display="flex" alignItems="center">
               <Checkbox checked={agreement} onChange={handleSetAgremment} />
@@ -82,9 +146,22 @@ function SignUp() {
                 Terms and Conditions
               </SuiTypography>
             </SuiBox>
+            <SuiBox mt={2} mb={2} textAlign="center">
+              <h6
+                style={{
+                  fontSize: ".8em",
+                  color: "red",
+                  textAlign: "center",
+                  fontWeight: 400,
+                  transition: ".2s all",
+                }}
+              >
+                {error}
+              </h6>
+            </SuiBox>
             <SuiBox mt={4} mb={1}>
-              <SuiButton variant="gradient" buttonColor="dark" fullWidth>
-                sign up
+              <SuiButton onClick={register} variant="gradient" buttonColor="dark" fullWidth>
+                {buttonText}
               </SuiButton>
             </SuiBox>
             <SuiBox mt={3} textAlign="center">

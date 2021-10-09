@@ -32,6 +32,7 @@ import Icon from "@mui/material/Icon";
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiInput from "components/SuiInput";
+import Cube from "examples/Icons/Cube";
 
 // Soft UI Dashboard React example components
 import Breadcrumbs from "examples/Breadcrumbs";
@@ -47,6 +48,10 @@ import { useSoftUIController } from "context";
 import team2 from "assets/images/team-2.jpg";
 import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
 
+import { useAuth } from "../../../auth-context/auth.context";
+import { useHistory } from "react-router-dom";
+import AuthApi from "../../../api/auth";
+
 function DashboardNavbar({ absolute, light, isMini }) {
   const [navbarType, setNavbarType] = useState();
   const [controller, dispatch] = useSoftUIController();
@@ -54,7 +59,9 @@ function DashboardNavbar({ absolute, light, isMini }) {
   const [openMenu, setOpenMenu] = useState(false);
   const classes = styles({ transparentNavbar, absolute, light, isMini });
   const route = useLocation().pathname.split("/").slice(1);
-
+  const { setUser } = useAuth();
+  let { user } = useAuth();
+  const history = useHistory();
   useEffect(() => {
     // Setting the navbar type
     if (fixedNavbar) {
@@ -89,6 +96,13 @@ function DashboardNavbar({ absolute, light, isMini }) {
     dispatch({ type: "OPEN_CONFIGURATOR", value: !openConfigurator });
   const handleOpenMenu = (event) => setOpenMenu(event.currentTarget);
   const handleCloseMenu = () => setOpenMenu(false);
+
+  const handleLogout = async () => {
+    await AuthApi.Logout(user);
+    await setUser(null);
+    localStorage.removeItem("user");
+    return history.push("/authentication/sign-in");
+  };
 
   // Render the notifications menu
   const renderMenu = () => (
@@ -152,15 +166,17 @@ function DashboardNavbar({ absolute, light, isMini }) {
               color={light ? "white" : "inherit"}
               customClass={classes.navbar_section_desktop}
             >
-              <Link to="/authentication/sign-in/basic">
-                <IconButton className={classes.navbar_icon_button}>
-                  <Icon className={light ? "text-white" : "text-dark"}>account_circle</Icon>
+              <Link to="#">
+                <IconButton onClick={handleLogout} className={classes.navbar_icon_button}>
+                  <Icon className={light ? "text-white" : "text-dark"}>
+                    <Cube size="12px" />
+                  </Icon>
                   <SuiTypography
                     variant="button"
                     fontWeight="medium"
                     textColor={light ? "white" : "dark"}
                   >
-                    Sign in
+                    Sign Out
                   </SuiTypography>
                 </IconButton>
               </Link>

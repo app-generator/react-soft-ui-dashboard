@@ -53,6 +53,8 @@ import rtlPlugin from "stylis-plugin-rtl";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 
+import { ProtectedRoute } from "./ProtectedRoute";
+
 export default function App() {
   const [controller, dispatch] = useSoftUIController();
   const { direction, layout, openConfigurator } = controller;
@@ -98,6 +100,9 @@ export default function App() {
       }
 
       if (route.route) {
+        if (route.protected) {
+          return <ProtectedRoute path={route.route} component={route.component} key={route.key} />;
+        }
         return <Route exact path={route.route} component={route.component} key={route.key} />;
       }
 
@@ -142,13 +147,12 @@ export default function App() {
           {layout === "vr" && <Configurator />}
           <Switch>
             {getRoutes(routes)}
-            <Redirect from="*" to="/dashboard" />
+            <Redirect from="*" to="/authentication/sign-in" />
           </Switch>
         </ThemeProvider>
       </StylesProvider>
     </CacheProvider>
   ) : (
-    // </CacheProvider>
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
         <CssBaseline />
