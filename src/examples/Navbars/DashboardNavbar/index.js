@@ -32,6 +32,7 @@ import Icon from "@mui/material/Icon";
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiInput from "components/SuiInput";
+import Cube from "examples/Icons/Cube";
 
 // Soft UI Dashboard React example components
 import Breadcrumbs from "examples/Breadcrumbs";
@@ -98,7 +99,7 @@ function DashboardNavbar({ absolute, light, isMini }) {
 
   const handleLogout = async () => {
     await AuthApi.Logout(user);
-    setUser(null);
+    await setUser(null);
     localStorage.removeItem("user");
     return history.push("/authentication/sign-in");
   };
@@ -165,9 +166,11 @@ function DashboardNavbar({ absolute, light, isMini }) {
               color={light ? "white" : "inherit"}
               customClass={classes.navbar_section_desktop}
             >
-              <Link to="/">
+              <Link to="#">
                 <IconButton onClick={handleLogout} className={classes.navbar_icon_button}>
-                  <Icon className={light ? "text-white" : "text-dark"}>account_circle</Icon>
+                  <Icon className={light ? "text-white" : "text-dark"}>
+                    <Cube size="12px" />
+                  </Icon>
                   <SuiTypography
                     variant="button"
                     fontWeight="medium"

@@ -31,6 +31,7 @@
         "jss-rtl": "^0.3.0",
         "prop-types": "^15.7.2",
         "react": "^17.0.2",
+        "react-bootstrap-sweetalert": "^5.2.0",
         "react-chartjs-2": "^3.0.4",
         "react-countup": "^5.2.0",
         "react-dom": "^17.0.2",
@@ -40,7 +41,6 @@
         "react-scripts": "4.0.3",
         "stylis": "^4.0.10",
         "stylis-plugin-rtl": "^2.1.0",
-        "sweetalert2": "^11.1.7",
         "web-vitals": "^1.0.1"
     },
     "scripts": {

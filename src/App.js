@@ -54,16 +54,12 @@ import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 
 import { ProtectedRoute } from "./ProtectedRoute";
-import { AuthProvider } from "auth-context/auth.context";
 
 export default function App() {
   const [controller, dispatch] = useSoftUIController();
   const { direction, layout, openConfigurator } = controller;
   const [rtlCache, setRtlCache] = useState(null);
   const { pathname } = useLocation();
-
-  let user = localStorage.getItem("user");
-  user = JSON.parse(user);
 
   // JSS presets for the rtl
   const jss = create({
@@ -136,47 +132,43 @@ export default function App() {
     </SuiBox>
   );
 
-  return (
-    <AuthProvider userData={user}>
-      {direction === "rtl" ? (
-        <CacheProvider value={rtlCache}>
-          <StylesProvider jss={jss}>
-            <ThemeProvider theme={themeRTL}>
-              <CssBaseline />
-              {layout === "dashboard" && (
-                <>
-                  <Sidenav routes={routes} />
-                  <Configurator />
-                  {configsButton}
-                </>
-              )}
-              {layout === "vr" && <Configurator />}
-              <Switch>
-                {getRoutes(routes)}
-                <Redirect from="*" to="/authentication/sign-in" />
-              </Switch>
-            </ThemeProvider>
-          </StylesProvider>
-        </CacheProvider>
-      ) : (
-        <StyledEngineProvider injectFirst>
-          <ThemeProvider theme={theme}>
-            <CssBaseline />
-            {layout === "dashboard" && (
-              <>
-                <Sidenav routes={routes} />
-                <Configurator />
-                {configsButton}
-              </>
-            )}
-            {layout === "vr" && <Configurator />}
-            <Switch>
-              {getRoutes(routes)}
-              <Redirect from="*" to="/dashboard" />
-            </Switch>
-          </ThemeProvider>
-        </StyledEngineProvider>
-      )}
-    </AuthProvider>
+  return direction === "rtl" ? (
+    <CacheProvider value={rtlCache}>
+      <StylesProvider jss={jss}>
+        <ThemeProvider theme={themeRTL}>
+          <CssBaseline />
+          {layout === "dashboard" && (
+            <>
+              <Sidenav routes={routes} />
+              <Configurator />
+              {configsButton}
+            </>
+          )}
+          {layout === "vr" && <Configurator />}
+          <Switch>
+            {getRoutes(routes)}
+            <Redirect from="*" to="/authentication/sign-in" />
+          </Switch>
+        </ThemeProvider>
+      </StylesProvider>
+    </CacheProvider>
+  ) : (
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {layout === "dashboard" && (
+          <>
+            <Sidenav routes={routes} />
+            <Configurator />
+            {configsButton}
+          </>
+        )}
+        {layout === "vr" && <Configurator />}
+        <Switch>
+          {getRoutes(routes)}
+          <Redirect from="*" to="/dashboard" />
+        </Switch>
+      </ThemeProvider>
+    </StyledEngineProvider>
   );
 }
