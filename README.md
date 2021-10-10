@@ -1,214 +1,161 @@
-# [Soft UI Dashboard React](http://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard) 
+# [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) 
 
-> Forked from [Soft UI Dashboard React](https://github.com/creativetimofficial/soft-ui-dashboard-react) - a Creative-Tim OSS product
+Start your Development with an Innovative Admin Template for **Material-UI** and **React**. Soft UI Dashboard React is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
 
 <br />
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/500/original/soft-ui-dashboard-material-ui.jpg?1632195046)
+> Features
 
-Start your Development with an Innovative Admin Template for Material-UI and React. If you like the look & feel of the hottest design trend right now, Soft UI, you will fall in love with this dashboard! It features a huge number of components built to fit together and look amazing.
+- Innovative Material-UI Design - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
+- React, Redux, Redux-persist
+- Authentication: JWT Login/Register/Logout
+- Full-stack ready using **[Node JS API Server](https://github.com/app-generator/api-server-nodejs)** (open-source project)
+  - Features: Typescript / SQLite / TypeORM / Joy (validation) / Passport library - `passport-jwt` strategy.
 
-**Fully Coded Elements**
-Soft UI Dashboard React is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using JSS files and classes. You will save a lot of time going from prototyping to full-functional code because all elements are implemented. This Premium Material-UI Dashboard is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+<br />
 
-View [all components here](https://www.creative-tim.com/learning-lab/react/alerts/soft-ui-dashboard).
+> Links
 
-**Documentation built by Developers**
+- [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - product page
+- [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/) - LIVE Demo
+- Support via **Github** (issues tracker) and [Discord](https://appseed.us/support) - LIVE Assistance 
 
-Each element is well presented in very complex documentation.
+<br />
 
-You can read more about the [documentation here](https://www.creative-tim.com/learning-lab/react/overview/soft-ui-dashboard).
+## Want more? Go PRO!
 
-**Example Pages**
+PRO versions include **Premium [React Kits](https://appseed.us/apps/react)**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
 
-If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. Every page is spaced well, with attractive layouts and pleasing shapes. Soft UI Dashboard React has everything you need to quickly set up an amazing project.
+| [Fullstack React Material Dashboard](https://appseed.us/full-stack/react-material-dashboard) | [React Node JS Datta PRO](https://appseed.us/product/react-node-js-datta-able-pro) | [React Node JS Material Kit](https://appseed.us/product/react-node-js-material-kit-pro) |
+| --- | --- | --- |
+| [![Fullstack React Material Dashboard](https://user-images.githubusercontent.com/51070104/128878037-50da7a12-787d-455d-933a-30b2957e2896.png)](https://appseed.us/full-stack/react-material-dashboard) | [![React Node JS Datta PRO](https://user-images.githubusercontent.com/51070104/126295682-6e89cdd8-455f-4f44-bb3c-0302d02c34a2.png)](https://appseed.us/product/react-node-js-datta-able-pro) | [![React Node JS Material KIT](https://user-images.githubusercontent.com/51070104/128535389-a09c68c2-02ec-4eb9-bad9-6bafcee85b10.png)](https://appseed.us/product/react-node-js-material-kit-pro)
 
-View [example pages here](https://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard).
+<br /> 
 
-**HELPFUL LINKS**
+<!-- IMAGE -->
 
-- View [Github Repository](https://github.com/creativetimofficial/soft-ui-dashboard-react)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+<br >
 
-#### Special thanks
+> **Note**: This product can be used with other API Servers for a complete full-stack experience. **ALL API servers use a unified interface**
 
-During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
+- [Django API Server](https://github.com/app-generator/api-server-django) - open-source product
+- [Flask API Server](https://github.com/app-generator/api-server-flask) - open-source product
+- [Node JS API Server](https://github.com/app-generator/api-server-nodejs) - open-source product / Typescript / SQLite / TypeORM / Joy for validation
+- [Node JS API Server PRO](https://github.com/app-generator/api-server-nodejs-pro) - **commercial product**
+    - Typescript / SQLite / TypeORM / Joy Validation / Docker
+    - Typescript / MongoDB / Mongoose / Joy Validation / Docker (separate branch, same project)
 
-- [Material-UI](https://mui.com/) - React components for faster and easier web development.
-- [React Countup](https://github.com/glennreyes/react-countup) - A lightweight React component that can be used to quickly create animations that display numerical data in a more interesting way.
-- [React ChartJS 2](http://reactchartjs.github.io/react-chartjs-2/#/) - Simple yet flexible React charting for designers & developers
-- [ChromaJS](https://gka.github.io/chroma.js/) - A small-ish zero-dependency JavaScript library for all kinds of color conversions and color scales.
+<br />
 
-Let us know your thoughts below. And good luck with development!
+## How to use it
 
-## Table of Contents
+To use the product Node JS (>= 12.x) is required and GIT to clone/download the project from the public repository.
 
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
+**Step #1** - Clone the project
 
-## Versions
-
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/soft-ui-dashboard-pro-react?ref=readme-sudr)
-
-| React |
-| ----- |
-
-| [![Soft UI Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/500/thumb/soft-ui-dashboard-material-ui.jpg?1632195046)](http://demos.creative-tim.com/soft-ui-dashboard-pro-react/#/dashboard?ref=readme-sudr)
-
-## Demo
-
-- [Dashboard](http://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard?ref=readme-sudr)
-- [Profile](https://demos.creative-tim.com/soft-ui-dashboard-react/#/profile?ref=readme-sudr)
-- [RTL](https://demos.creative-tim.com/soft-ui-dashboard-react/#/rtl?ref=readme-sudr)
-- [Sign In](https://demos.creative-tim.com/soft-ui-dashboard-react/#/authentication/sign-in?ref=readme-sudr)
-- [Sign Up](https://demos.creative-tim.com/soft-ui-dashboard-react/#/authentication/sign-up?ref=readme-sudr)
-
-[View More](https://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard?ref=readme-sudr).
-
-## Quick start
-
-Quick start options:
-
-- Buy from [Creative Tim](https://www.creative-tim.com/product/soft-ui-dashboard-react?ref=readme-sudr).
-
-## Terminal Commands
-
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root / directory and run yarn install/npm install to install our local dependencies.
-
-## Documentation
-
-The documentation for the Soft UI Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/react/overview/soft-ui-dashboard?ref=readme-sudr).
-
-### What's included
-
-Within the download you'll find the following directories and files:
-
-```
-soft-ui-dashboard-react
-    ├── public
-    │   ├── apple-icon.png
-    │   ├── favicon.png
-    │   ├── index.html
-    │   ├── manifest.json
-    │   └── robots.txt
-    ├── src
-    │   ├── assets
-    │   │   ├── images
-    │   │   └── theme
-    │   │       ├── base
-    │   │       ├── components
-    │   │       ├── functions
-    │   │       ├── index.js
-    │   │       └── theme-rtl.js
-    │   ├── components
-    │   │   ├── SuiAlert
-    │   │   ├── SuiAvatar
-    │   │   ├── SuiBadge
-    │   │   ├── SuiBox
-    │   │   ├── SuiButton
-    │   │   ├── SuiInput
-    │   │   ├── SuiPagination
-    │   │   ├── SuiProgress
-    │   │   └── SuiTypography
-    │   ├── context
-    │   ├── examples
-    │   │   ├── Breadcrumbs
-    │   │   ├── Calendar
-    │   │   ├── Cards
-    │   │   ├── Charts
-    │   │   ├── Configurator
-    │   │   ├── Footer
-    │   │   ├── Icons
-    │   │   ├── LayoutContainers
-    │   │   ├── Navbars
-    │   │   ├── NotificationItem
-    │   │   ├── ProfilesList
-    │   │   ├── Sidenav
-    │   │   ├── Table
-    │   │   └── Timeline
-    │   ├── layouts
-    │   │   ├── authentication
-    │   │   │    ├── components
-    │   │   │    ├── sign-in
-    │   │   │    └── sign-up
-    │   │   ├── billing
-    │   │   ├── dashboard
-    │   │   ├── profile
-    │   │   ├── rtl
-    │   │   ├── tables
-    │   │   └── virtual-reality
-    │   ├── App.js
-    │   ├── index.js
-    │   └── routes.js
-    ├── .eslintrc.json
-    ├── .prettierrc.json
-    ├── CHANGELOG.md
-    ├── ISSUE_TEMPLATE.md
-    ├── jsconfig.json
-    ├── package.json
-    └── README.md
+```bash
+$ git clone https://github.com/app-generator/react-soft-ui-dashboard.git
+$ cd react-soft-ui-dashboard
 ```
 
-## Browser Support
+<br >
 
-At present, we officially aim to support the last two versions of the following browsers:
+**Step #2** - Install dependencies via NPM or yarn
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+```bash
+$ npm i
+// OR
+$ yarn
+```
 
-## Resources
+<br />
 
-- [Live Preview](https://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard?ref=readme-sudr)
-- [Buy Page](https://www.creative-tim.com/product/soft-ui-dashboard-react?ref=readme-sudr)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/react/overview/soft-ui-dashboard?ref=readme-sudr)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-sudr)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-sudr)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard-react/issues)
+**Step #3** - Start in development mode
 
-## Reporting Issues
+```bash
+$ npm run start 
+// OR
+$ yarn start
+```
 
-We use GitHub Issues as the official bug tracker for the Soft UI Dashboard React. Here are some advices for our users that want to report an issue:
+<br />
 
-1. Make sure that you are using the latest version of the Soft UI Dashboard React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/soft-ui-dashboard-react?ref=readme-sudr).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+## Configure the backend server
 
-## Technical Support or Questions
+The product comes with a usable JWT Authentication flow that provides only the basic requests: login/logout/register. 
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-sudr) instead of opening an issue.
+**API Server URL** - `src/config/constant.js` 
 
-## Licensing
+```javascript
+const config = {
+    ...
+    API_SERVER: 'http://localhost:5000/api/'  // <-- The magic line
+};
+```
 
-- Copyright 2021 [Creative Tim](https://www.creative-tim.com?ref=readme-sudr)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sudr)
+<br />
 
-## Useful Links
+**API Server Descriptor** - POSTMAN Collection
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-sudr) from Creative Tim
+The API Server signature is provided by the [Unified API Definition](https://docs.appseed.us/boilerplate-code/api-unified-definition)
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- [API POSTMAN Collection](https://github.com/app-generator/api-server-unified/blob/main/api.postman_collection.json) - can be used to mock (simulate) the backend server or code a new one in your preferred framework. 
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-sudr) from Creative Tim
+<br />
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-sudr) (earn money)
+## Node JS API Server
 
-##### Social Media
+The product is also open-source and is already configured to work with Berry Dashboard Template - product features:
 
-Twitter: <https://twitter.com/CreativeTim>
+- Typescript / Node js / Express server
+- JWT authentication (`passport-jwt` strategy)
+- Persistence: SQLite 
 
-Facebook: <https://www.facebook.com/CreativeTim>
+> Links
 
-Dribbble: <https://dribbble.com/creativetim>
+- [Node JS API](https://github.com/app-generator/api-server-nodejs) - source code
+- [Node JS API](https://appseed.us/boilerplate-code/nodejs-starter) - product page
 
-Google+: <https://plus.google.com/+CreativetimPage>
+<br />
 
-Instagram: <https://instagram.com/creativetimofficial>
+![Node JS API - Open-source API server built on top of Express Nodejs Framework.](https://user-images.githubusercontent.com/51070104/124934824-c210a700-e00d-11eb-9d01-e05bd8bfb608.png)
+
+<br />
+
+### Compile the API Server
+
+**Step #1** - Clone the project
+
+```bash
+$ git clone https://github.com/app-generator/api-server-nodejs.git
+$ cd api-server-nodejs
+```
+
+**Step #2** - Install dependencies via NPM or Yarn
+
+```bash
+$ npm i
+// OR
+$ yarn
+```
+
+**Step #3** - Run the SQLite migration via TypeORM
+
+```
+$ yarn typeorm migration:run
+```
+
+**Step #4** - Start the API server (development mode)
+
+```bash
+$ npm dev
+// OR
+$ yarn dev
+```
+
+The API server will start using the `PORT` specified in `.env` file (default 5000).
+
+<br /> 
+
+---
+[React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard)  - Provided by AppSeed **[App Generator](https://appseed.us/app-generator)**.
