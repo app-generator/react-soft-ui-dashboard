@@ -1,4 +1,4 @@
-# [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) 
+# React Soft Dashboard
 
 Start your Development with an Innovative Admin Template for **Material-UI** and **React**. Soft UI Dashboard React is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
 
@@ -16,7 +16,6 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 > Links
 
-- [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - product page
 - [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
 - Support via **Github** (issues tracker) and [Discord](https://appseed.us/support) - LIVE Assistance 
 
@@ -158,4 +157,4 @@ The API server will start using the `PORT` specified in `.env` file (default 500
 <br /> 
 
 ---
-[React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard)  - Provided by AppSeed **[App Generator](https://appseed.us/app-generator)**.
+React Soft Dashboard  - Provided by AppSeed **[App Generator](https://appseed.us/app-generator)**.
