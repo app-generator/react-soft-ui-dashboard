@@ -17,7 +17,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 > Links
 
 - [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - product page
-- [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/) - LIVE Demo
+- [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
 - Support via **Github** (issues tracker) and [Discord](https://appseed.us/support) - LIVE Assistance 
 
 <br />
