@@ -94,7 +94,7 @@ function SignIn() {
 
   return (
     <CoverLayout
-      title="Welcome back"
+      title="React Node Soft Dashboard"
       description={`${user && user.token ? "" : "Enter your email and password to sign in"}`}
       image={curved9}
     >

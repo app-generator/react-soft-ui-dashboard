@@ -175,7 +175,7 @@ function Configurator() {
           <SuiBox mb={2}>
             <SuiButton
               component={Link}
-              href="https://www.creative-tim.com/product/soft-ui-dashboard-react"
+              href="https://appseed.us/product/node-js-react-soft-dashboard"
               target="_blank"
               rel="noreferrer"
               buttonColor="dark"
@@ -185,25 +185,14 @@ function Configurator() {
               free download
             </SuiButton>
           </SuiBox>
-          <SuiButton
-            component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/soft-ui-dashboard"
-            target="_blank"
-            rel="noreferrer"
-            buttonColor="dark"
-            variant="outlined"
-            fullWidth
-          >
-            view documentation
-          </SuiButton>
         </SuiBox>
         <SuiBox display="flex" justifyContent="center">
           <GitHubButton
-            href="https://github.com/creativetimofficial/soft-ui-dashboard-react"
+            href="https://github.com/app-generator/react-soft-ui-dashboard"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star creativetimofficial/soft-ui-dashboard-react on GitHub"
+            aria-label="Star Soft UI Dashboard React on GitHub"
           >
             Star
           </GitHubButton>
@@ -228,7 +217,7 @@ function Configurator() {
             </SuiBox>
             <SuiButton
               component={Link}
-              href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard-react"
+              href="https://www.facebook.com/sharer/sharer.php?u=https://appseed.us/product/node-js-react-soft-dashboard"
               target="_blank"
               rel="noreferrer"
               buttonColor="dark"

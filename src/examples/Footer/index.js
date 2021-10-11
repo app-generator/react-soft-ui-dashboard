@@ -18,7 +18,6 @@ import PropTypes from "prop-types";
 
 // @mui material components
 import Link from "@mui/material/Link";
-import Icon from "@mui/material/Icon";
 
 // Soft UI Dashboard React components
 import SuiBox from "components/SuiBox";
@@ -64,19 +63,13 @@ function Footer({ company, links }) {
         fontSize={size.sm}
         px={1.5}
       >
-        &copy; {new Date().getFullYear()}, made with
-        <SuiBox fontSize={size.regular} color="text" mb={-0.5} mx={0.25}>
-          <Icon color="inherit" fontSize="inherit">
-            favorite
-          </Icon>
-        </SuiBox>
-        by
+        &copy;
         <Link href={href} target="_blank">
           <SuiTypography variant="button" fontWeight="medium">
             &nbsp;{name}&nbsp;
           </SuiTypography>
         </Link>
-        for a better web.
+        Coded By AppSeed.
       </SuiBox>
       <SuiBox component="ul" customClass={classes.footer_list}>
         {renderLinks()}
@@ -87,12 +80,10 @@ function Footer({ company, links }) {
 
 // Setting default values for the props of Footer
 Footer.defaultProps = {
-  company: { href: "https://www.creative-tim.com/", name: "Creative Tim" },
+  company: { href: "https://bit.ly/3fKQZaL", name: "Creative Tim" },
   links: [
-    { href: "https://www.creative-tim.com/", name: "Creative Tim" },
-    { href: "https://www.creative-tim.com/presentation", name: "About Us" },
-    { href: "https://www.creative-tim.com/blog", name: "Blog" },
-    { href: "https://www.creative-tim.com/license", name: "License" },
+    { href: "https://appseed.us/product/node-js-react-soft-dashboard", name: "Product" },
+    { href: "https://appseed.us/support", name: "Support" },
   ],
 };
 

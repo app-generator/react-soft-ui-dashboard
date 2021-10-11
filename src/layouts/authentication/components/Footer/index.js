@@ -34,33 +34,38 @@ function Footer() {
         <Grid item xs={10} lg={8}>
           <SuiBox display="flex" justifyContent="center" flexWrap="wrap" mb={3}>
             <SuiBox mr={{ xs: 2, lg: 3, xl: 6 }}>
-              <SuiTypography component="a" href="#" variant="body2" textColor="secondary">
-                Company
+              <SuiTypography
+                component="a"
+                href="https://bit.ly/3fKQZaL"
+                target="_blank"
+                variant="body2"
+                textColor="secondary"
+              >
+                Creative-Tim
               </SuiTypography>
             </SuiBox>
             <SuiBox mr={{ xs: 2, lg: 3, xl: 6 }}>
-              <SuiTypography component="a" href="#" variant="body2" textColor="secondary">
-                About Us
-              </SuiTypography>
-            </SuiBox>
-            <SuiBox mr={{ xs: 0, lg: 3, xl: 6 }}>
-              <SuiTypography component="a" href="#" variant="body2" textColor="secondary">
-                Team
-              </SuiTypography>
-            </SuiBox>
-            <SuiBox mr={{ xs: 2, lg: 3, xl: 6 }}>
-              <SuiTypography component="a" href="#" variant="body2" textColor="secondary">
+              <SuiTypography
+                component="a"
+                href="https://appseed.us/product/node-js-react-soft-dashboard"
+                target="_blank"
+                variant="body2"
+                textColor="secondary"
+              >
                 Product
               </SuiTypography>
             </SuiBox>
-            <SuiBox mr={{ xs: 2, lg: 3, xl: 6 }}>
-              <SuiTypography component="a" href="#" variant="body2" textColor="secondary">
-                Blog
+            <SuiBox mr={{ xs: 0, lg: 3, xl: 6 }}>
+              <SuiTypography
+                component="a"
+                href="https://appseed.us"
+                target="_blank"
+                variant="body2"
+                textColor="secondary"
+              >
+                Support
               </SuiTypography>
             </SuiBox>
-            <SuiTypography component="a" href="#" variant="body2" textColor="secondary">
-              Pricing
-            </SuiTypography>
           </SuiBox>
         </Grid>
         <Grid item xs={12} lg={8}>
@@ -84,7 +89,7 @@ function Footer() {
         </Grid>
         <Grid item xs={12} lg={8} className="text-center">
           <SuiTypography variant="body2" textColor="secondary">
-            Copyright &copy; 2021 Soft by Creative Tim.
+            &copy; Creative Tim - coded by AppSeed.
           </SuiTypography>
         </Grid>
       </Grid>

@@ -175,14 +175,14 @@ function Sidenav({ routes, ...rest }) {
         <SuiBox mt={2}>
           <SuiButton
             component="a"
-            href="https://creative-tim.com/product/soft-ui-dashboard-pro-react"
+            href="https://appseed.us/full-stack/react-soft-ui-dashboard"
             target="_blank"
             rel="noreferrer"
             variant="gradient"
             buttonColor="info"
             fullWidth
           >
-            upgrade to pro
+            Pro Version
           </SuiButton>
         </SuiBox>
       </SuiBox>
