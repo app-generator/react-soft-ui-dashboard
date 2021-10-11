@@ -44,6 +44,7 @@ import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
+import SignOut from "layouts/authentication/sign-out";
 
 // Soft UI Dashboard React icons
 import Shop from "examples/Icons/Shop";
@@ -118,7 +119,7 @@ const routes = [
     protected: true,
   },
   {
-    type: "collapse",
+    type: "none",
     name: "Sign In",
     key: "sign-in",
     route: "/authentication/sign-in",
@@ -127,12 +128,21 @@ const routes = [
     noCollapse: true,
   },
   {
-    type: "collapse",
+    type: "none",
     name: "Sign Up",
     key: "sign-up",
     route: "/authentication/sign-up",
     icon: <SpaceShip size="12px" />,
     component: SignUp,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Logout",
+    key: "sign-out",
+    route: "/authentication/sign-out",
+    icon: <SpaceShip size="12px" />,
+    component: SignOut,
     noCollapse: true,
   },
 ];
