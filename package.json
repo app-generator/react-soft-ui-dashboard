@@ -1,11 +1,10 @@
 {
     "name": "react-soft-ui-dashboard",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "private": true,
     "author": "Creative Tim & AppSeed",
     "license": "See license in https://www.creative-tim.com/license",
     "description": "Material UI version of Soft UI Dashboard by Creative Tim",
-    "homepage": "https://demos.creative-tim.com/soft-ui-dashboard-react/#/dashboard",
     "bugs": {
         "url": "https://github.com/app-generator/react-soft-ui-dashboard/issues"
     },

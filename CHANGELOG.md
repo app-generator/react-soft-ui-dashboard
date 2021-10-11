@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.4] 2021-10-11
+### Improvements
+
+- Patch #5 (enhancement) - Logout Link - Move from top-left menu to sidebar
+- Update Links (different sections)
+
 ## [2.0.3] 2021-10-09
 ### Improvements
 
