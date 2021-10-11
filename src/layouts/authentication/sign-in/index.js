@@ -63,6 +63,7 @@ function SignIn() {
     if (password === "") {
       return setError("You must enter your password");
     }
+    setButtonText("Signing in");
     try {
       let response = await AuthApi.Login({
         email,
@@ -71,7 +72,6 @@ function SignIn() {
       if (response.data && response.data.success === false) {
         return setError(response.data.msg);
       }
-      setButtonText("Signing in");
       return setProfile(response);
     } catch (err) {
       console.log(err);
