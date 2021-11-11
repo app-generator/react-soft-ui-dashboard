@@ -22,16 +22,6 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
-## Want more? Go PRO!
-
-PRO versions include **Premium [React Kits](https://appseed.us/apps/react)**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
-
-| [Fullstack React Material Dashboard](https://appseed.us/full-stack/react-material-dashboard) | [React Node JS Datta PRO](https://appseed.us/product/react-node-js-datta-able-pro) | [React Node JS Material Kit](https://appseed.us/product/react-node-js-material-kit-pro) |
-| --- | --- | --- |
-| [![Fullstack React Material Dashboard](https://user-images.githubusercontent.com/51070104/128878037-50da7a12-787d-455d-933a-30b2957e2896.png)](https://appseed.us/full-stack/react-material-dashboard) | [![React Node JS Datta PRO](https://user-images.githubusercontent.com/51070104/126295682-6e89cdd8-455f-4f44-bb3c-0302d02c34a2.png)](https://appseed.us/product/react-node-js-datta-able-pro) | [![React Node JS Material KIT](https://user-images.githubusercontent.com/51070104/128535389-a09c68c2-02ec-4eb9-bad9-6bafcee85b10.png)](https://appseed.us/product/react-node-js-material-kit-pro)
-
-<br /> 
-
 ![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/136687466-1dfeeb6b-d474-45df-879b-0857b27eb615.gif) 
 
 <br >
