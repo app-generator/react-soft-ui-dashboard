@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.5] 2021-11-16
+### Improvements
+
+- Added Docker Support
+- Fixes:
+  - Logout over Flask API Server
+
 ## [2.0.4] 2021-10-11
 ### Improvements
 

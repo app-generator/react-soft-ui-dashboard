@@ -22,6 +22,27 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
+## Quick Start in [Docker](https://www.docker.com/)
+
+> Get the code
+
+```bash
+$ git clone https://github.com/app-generator/react-soft-ui-dashboard.git
+$ cd react-soft-ui-dashboard
+```
+
+> Start the app in Docker
+
+```bash
+$ docker-compose pull  # download dependencies 
+$ docker-compose build # local set up
+$ docker-compose up    # start the app 
+```
+
+The React UI starts on port `3000` and expects an API server on port `5000` (saved in configuration).
+
+<br />
+
 ![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/136687466-1dfeeb6b-d474-45df-879b-0857b27eb615.gif) 
 
 <br >
