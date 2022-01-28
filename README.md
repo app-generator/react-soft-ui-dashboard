@@ -24,9 +24,11 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 > Tested with:
 
-- NodeJS `v12.22.0` / NPM `6.14.11` / Yarn `1.22.5`
-- NodeJS `v14.15.0` / NPM `6.14.8`  / Yarn `1.22.5`
-- NodeJS `16.13.0`  / NPM `8.1.0`   / Yarn `1.22.5`
+| NodeJS | NPM | YARN | Status | 
+| --- | --- | --- | --- | 
+| `v12.22.0` | `6.14.11` | `1.22.5` | ✔️ |
+| `v14.15.0` | `6.14.8`  | `1.22.5` | ✔️ |
+| `16.13.0`  | `8.1.0`   | `1.22.5` | ✔️ | 
 
 <br />
 
