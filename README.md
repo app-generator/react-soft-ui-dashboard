@@ -16,9 +16,9 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 > Links
 
-- [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - product page
-- [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
-- Support via **Github** (issues tracker) and [Discord](https://appseed.us/support) - LIVE Assistance 
+- 👉 [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - product page
+- 👉 [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
+- 👉 Support via **Github** (issues tracker) and [Discord](https://appseed.us/support) - LIVE Assistance 
 
 <br />
 
@@ -47,7 +47,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
-## How to use it
+## ✨ How to use it
 
 To use the product Node JS (>= 12.x) is required and GIT to clone/download the project from the public repository.
 
@@ -80,7 +80,7 @@ $ yarn start
 
 <br />
 
-## Configure the backend server
+## ✨ Configure the backend server
 
 The product comes with a usable JWT Authentication flow that provides only the basic requests: login/logout/register. 
 
@@ -103,7 +103,7 @@ The API Server signature is provided by the [Unified API Definition](https://doc
 
 <br />
 
-## Node JS API Server
+## ✨ Node JS API Server
 
 The product is also open-source and is already configured to work with Berry Dashboard Template - product features:
 
