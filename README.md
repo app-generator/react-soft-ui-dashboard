@@ -1,10 +1,13 @@
-# [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard)
+# [React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/)
 
-Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Soft UI Dashboard React](https://appseed.us/product/node-js-react-soft-dashboard) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
+Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Soft UI Dashboard React](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
+
+- 👉 [React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) - product page
+- 👉 [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
 
 <br />
 
-> Features
+> 🚀 Built with **[React App Generator](https://appseed.us/generator/react/)**
 
 - Innovative **Material-UI Design** - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
 - React, Redux, Redux-persist
@@ -14,21 +17,15 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
-> Links
+## Tests
 
-- 👉 [React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - product page
-- 👉 [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
-- 👉 Support via **Github** (issues tracker) and [Discord](https://appseed.us/support) - LIVE Assistance 
+> `Compatibility matrix` tested with [Render API Wrapper](https://github.com/app-generator/deploy-automation-render).
 
-<br />
-
-> Tested with:
-
-| NodeJS | NPM | YARN | Status | 
-| --- | --- | --- | --- | 
-| `v16.13.0` | `v8.1.0`   | `v1.22.5` | ✔️ | 
-| `v14.15.0` | `v6.14.8`  | `v1.22.5` | ✔️ |
-| `v12.22.0` | `v6.14.11` | `v1.22.5` | ✔️ |
+| NodeJS | NPM | YARN | 
+| --- | --- | --- |  
+| `v14.0.0` | ❌ | ❌ |
+| `v16.0.0` | ❌ | ❌ | 
+| `v18.0.0` | ❌ | ❌ | 
 
 <br />
 
