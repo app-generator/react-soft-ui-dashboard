@@ -9,10 +9,10 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 > 🚀 Built with **[React App Generator](https://appseed.us/generator/react/)**
 
-- Innovative **Material-UI Design** - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
-- React, Redux, Redux-persist
-- Authentication: JWT Login/Register/Logout
-- Full-stack ready using **[Node JS API Server](https://github.com/app-generator/api-server-nodejs)** (open-source project)
+- ✅ Innovative **Material-UI Design** - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
+- ✅ React, Redux, Redux-persist
+- ✅ Authentication: JWT Login/Register/Logout
+- ✅ Full-stack ready using **[Node JS API Server](https://github.com/app-generator/api-server-nodejs)** (open-source project)
   - Features: Typescript / SQLite / TypeORM / Joy (validation) / Passport library - `passport-jwt` strategy.
 
 <br />
