@@ -1,5 +1,14 @@
 # Change Log
 
+## [2.0.6] 2022-11-05
+### Improvements
+
+- Added `env.sample`
+- `API_URL` can be specified in `env` (optional)
+  - data used in `src/config.js`  
+- Added `compatibility matrix` for Node, yarn & NPM
+  - Testing tool: [Render API Wrapper](https://github.com/app-generator/deploy-automation-render)
+
 ## [2.0.5] 2021-11-16
 ### Improvements
 
