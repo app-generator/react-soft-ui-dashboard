@@ -138,4 +138,6 @@ SuiInput.propTypes = {
   disabled: PropTypes.bool,
 };
 
+SuiInput.displayName = "SuiInput";
+
 export default SuiInput;

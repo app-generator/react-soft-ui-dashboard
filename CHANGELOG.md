@@ -1,5 +1,10 @@
 # Change Log
 
+## [v2.0.8] 2022-11-09
+### Improvements
+
+- Fixes for LIVE deployment on RENDER
+
 ## [v2.0.7] 2022-11-08
 ### Improvements
 

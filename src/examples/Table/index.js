@@ -141,4 +141,6 @@ Table.propTypes = {
   rows: PropTypes.arrayOf(PropTypes.object),
 };
 
+Table.displayName = "Table";
+
 export default Table;

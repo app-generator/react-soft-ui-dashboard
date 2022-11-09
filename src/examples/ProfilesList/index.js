@@ -85,4 +85,6 @@ ProfilesList.propTypes = {
   profiles: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
+ProfilesList.displayName = "ProfilesList";
+
 export default ProfilesList;

@@ -78,4 +78,6 @@ SuiProgress.propTypes = {
   noLabel: PropTypes.bool,
 };
 
+SuiProgress.displayName = "SuiProgress";
+
 export default SuiProgress;

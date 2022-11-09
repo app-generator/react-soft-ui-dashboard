@@ -195,4 +195,6 @@ Sidenav.propTypes = {
   routes: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
+Sidenav.displayName = "Sidenav";
+
 export default Sidenav;

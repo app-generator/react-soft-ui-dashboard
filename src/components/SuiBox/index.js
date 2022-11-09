@@ -77,4 +77,6 @@ SuiBox.propTypes = {
   customClass: PropTypes.string,
 };
 
+SuiBox.displayName = "SuiBox";
+
 export default SuiBox;

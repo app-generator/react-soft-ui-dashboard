@@ -98,4 +98,6 @@ SuiBadge.propTypes = {
   container: PropTypes.bool,
 };
 
+SuiBadge.displayName = "SuiBadge";
+
 export default SuiBadge;

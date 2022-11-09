@@ -91,4 +91,6 @@ SuiPagination.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
+SuiPagination.displayName = "SuiPagination";
+
 export default SuiPagination;

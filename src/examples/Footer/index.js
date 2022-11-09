@@ -93,4 +93,6 @@ Footer.propTypes = {
   links: PropTypes.arrayOf(PropTypes.object),
 };
 
+Footer.displayName = "Footer";
+
 export default Footer;

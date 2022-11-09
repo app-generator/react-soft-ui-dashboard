@@ -99,4 +99,6 @@ Breadcrumbs.propTypes = {
   light: PropTypes.bool,
 };
 
+Breadcrumbs.displayName = "Breadcrumbs";
+
 export default Breadcrumbs;

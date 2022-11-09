@@ -76,4 +76,6 @@ NotificationItem.propTypes = {
   date: PropTypes.string.isRequired,
 };
 
+NotificationItem.displayName = "NotificationItem";
+
 export default NotificationItem;

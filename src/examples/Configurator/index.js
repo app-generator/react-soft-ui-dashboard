@@ -232,4 +232,6 @@ function Configurator() {
   );
 }
 
+Configurator.displayName = "Configurator";
+
 export default Configurator;

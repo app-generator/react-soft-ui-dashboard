@@ -89,4 +89,6 @@ SuiAlert.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
+SuiAlert.displayName = "SuiAlert";
+
 export default SuiAlert;

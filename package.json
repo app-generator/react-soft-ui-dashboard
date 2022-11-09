@@ -6,8 +6,8 @@
     "license": "See license in https://www.creative-tim.com/license",
     "description": "Material UI version of Soft UI Dashboard by Creative Tim",
     "build": {
-        "yarn": "14.15.0",
-        "npm": "14.15.0"
+        "yarn": "14.15.0,16.0.0",
+        "npm": "14.15.0,16.0.0"
     },     
     "bugs": {
         "url": "https://github.com/app-generator/react-soft-ui-dashboard/issues"
