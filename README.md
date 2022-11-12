@@ -7,6 +7,17 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
+## `PROMO` [Black Friday 2022](https://blog.appseed.us/black-friday-2022-vote-your-discount/)
+
+> This [campaign](https://blog.appseed.us/black-friday-2022-vote-your-discount/) starts on `15-NOV` and the users are able to `vote their discount`: **50, 60, 70%**: 
+
+- 👉 [Discord](https://discord.gg/fZC6hup) `announcements` channel
+- 👉 [Twitter](https://twitter.com/webappseed) (official account) 
+
+[![black-friday-2022-cover](https://user-images.githubusercontent.com/51070104/201459148-7561df9f-0a7d-4d1a-bf44-a1ac5e89c175.jpg)](https://blog.appseed.us/black-friday-2022-vote-your-discount/)
+
+<br />
+
 > 🚀 Built with **[React App Generator](https://appseed.us/generator/react/)**
 
 - ✅ Innovative **Material-UI Design** - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
