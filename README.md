@@ -31,15 +31,13 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 ![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
 
-<br >
+<br>
 
-> **Note**: This product can be used with other API Servers for a complete full-stack experience. **ALL API servers use a unified interface**
+## `Video Presentation`
 
-- [Django API Server](https://github.com/app-generator/api-server-django) - open-source product
-- [Flask API Server](https://github.com/app-generator/api-server-flask) - open-source product
-- [Node JS API Server](https://github.com/app-generator/api-server-nodejs-mongo) - `free API`
-  - MongoDB / Mongoose
-  - Typescript / Joy Validation / Docker
+> This material explains how to **deploy the product LIVE** using the [Drag & Drop Deployer](https://appseed.us/go-live/).
+
+[![React Soft Dashboard, open-source fullstack project - Video Presentation.](https://user-images.githubusercontent.com/51070104/204474288-8f134cfa-3d12-4810-aa36-6dcce666284f.jpg)](https://www.youtube.com/watch?v=YdAKP6ianfQ)
 
 <br />
 
