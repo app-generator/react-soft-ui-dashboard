@@ -45,7 +45,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 To use the product Node JS (>= 12.x) is required and GIT to clone/download the project from the public repository.
 
-**Step #1** - Clone the project
+> 👉 **Step #1** - Clone the project
 
 ```bash
 $ git clone https://github.com/app-generator/react-soft-ui-dashboard.git
@@ -54,7 +54,7 @@ $ cd react-soft-ui-dashboard
 
 <br >
 
-**Step #2** - Install dependencies via NPM or yarn
+> 👉 **Step #2** - Install dependencies via NPM or yarn
 
 ```bash
 $ npm i
@@ -64,7 +64,7 @@ $ yarn
 
 <br />
 
-**Step #3** - Start in development mode
+> 👉 **Step #3** - Start in development mode
 
 ```bash
 $ npm run start 
@@ -78,7 +78,7 @@ $ yarn start
 
 The product comes with a usable JWT Authentication flow that provides only the basic requests: login/logout/register. 
 
-**API Server URL** - `src/config/constant.js` 
+> 👉 **API Server URL** - `src/config/constant.js` 
 
 ```javascript
 const config = {
@@ -89,7 +89,7 @@ const config = {
 
 <br />
 
-**API Server Descriptor** - POSTMAN Collection
+> 👉 **API Server Descriptor** - POSTMAN Collection
 
 The API Server signature is provided by the [Unified API Definition](https://docs.appseed.us/boilerplate-code/api-unified-definition)
 
@@ -118,14 +118,14 @@ The product is also open-source and is already configured to work with Berry Das
 
 ### Compile the API Server
 
-**Step #1** - Clone the project
+> 👉 **Step #1** - Clone the project
 
 ```bash
 $ git clone https://github.com/app-generator/api-server-nodejs.git
 $ cd api-server-nodejs
 ```
 
-**Step #2** - Install dependencies via NPM or Yarn
+> 👉 **Step #2** - Install dependencies via NPM or Yarn
 
 ```bash
 $ npm i
@@ -133,13 +133,13 @@ $ npm i
 $ yarn
 ```
 
-**Step #3** - Run the SQLite migration via TypeORM
+> 👉 **Step #3** - Run the SQLite migration via TypeORM
 
 ```
 $ yarn typeorm migration:run
 ```
 
-**Step #4** - Start the API server (development mode)
+> 👉 **Step #4** - Start the API server (development mode)
 
 ```bash
 $ npm dev
@@ -152,4 +152,4 @@ The API server will start using the `PORT` specified in `.env` file (default 500
 <br /> 
 
 ---
-[React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - Provided by AppSeed **[App Generator](https://appseed.us/app-generator)**.
+[React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) - Provided by **[AppSeed](https://appseed.us/app-generator)**.
