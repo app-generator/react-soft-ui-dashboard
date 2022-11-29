@@ -9,7 +9,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 > 🚀 Built with **[React App Generator](https://appseed.us/generator/react/)**
 
-- ✅ Innovative **Material-UI Design** - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
+- ✅ Innovative **Soft UI Design** - Crafted by [Creative-Tim](https://bit.ly/3fKQZaL)
 - ✅ React, Redux, Redux-persist
 - ✅ Authentication: JWT Login/Register/Logout
 - ✅ Full-stack ready using **[Node JS API Server](https://github.com/app-generator/api-server-nodejs)** (open-source project)
@@ -19,13 +19,13 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 ## Tests
 
-> `Compatibility matrix` tested with [Render API Wrapper](https://github.com/app-generator/deploy-automation-render).
+> `Compatibility matrix` using Ubuntu `18.04 LTS` as reference.
 
 | NodeJS | NPM | YARN | 
 | --- | --- | --- |  
-| `v14.15.0` | ✅ | ✅ |
-| `v16.0.0` | ❌ | ❌ | 
-| `v18.0.0` | ❌ | ❌ | 
+| `v14.0.0` | ✅ | ❌ |
+| `v15.0.0` | ✅ | ❌ | 
+| `v16.15.0` | ✅ | ✅ | 
 
 <br />
 
@@ -37,10 +37,9 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 - [Django API Server](https://github.com/app-generator/api-server-django) - open-source product
 - [Flask API Server](https://github.com/app-generator/api-server-flask) - open-source product
-- [Node JS API Server](https://github.com/app-generator/api-server-nodejs) - open-source product / Typescript / SQLite / TypeORM / Joy for validation
-- [Node JS API Server PRO](https://github.com/app-generator/api-server-nodejs-pro) - **commercial product**
-    - Typescript / SQLite / TypeORM / Joy Validation / Docker
-    - Typescript / MongoDB / Mongoose / Joy Validation / Docker (separate branch, same project)
+- [Node JS API Server](https://github.com/app-generator/api-server-nodejs-mongo) - `free API`
+  - MongoDB / Mongoose
+  - Typescript / Joy Validation / Docker
 
 <br />
 

@@ -1,5 +1,11 @@
 # Change Log
 
+## [v2.0.9] 2022-11-29
+### Changes
+
+- Bump UI:  `4.0.0`
+- Updates for [LIVE Deployer](https://appseed.us/go-live/)
+
 ## [v2.0.8] 2022-11-09
 ### Improvements
 

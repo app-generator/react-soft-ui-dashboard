@@ -1,0 +1,9 @@
+{
+    "api-server":"https://api-server-nodejs.appseed.us/api/",
+    "name":"react-soft-ui-dashboard",
+    "framework": "react",
+    "type": "static",
+    "build": {
+        "npm": "v14.0.0"
+    }     
+}
