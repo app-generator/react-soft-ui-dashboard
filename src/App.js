@@ -41,7 +41,7 @@ import createCache from "@emotion/cache";
 
 // Soft UI Dashboard React routes
 import routes from "./routes";
-import { ProtectedRoute } from './ProtectedRoute';
+import { ProtectedRoute } from "./ProtectedRoute";
 
 // Soft UI Dashboard React contexts
 import { useSoftUIController, setMiniSidenav, setOpenConfigurator } from "context";
@@ -104,7 +104,7 @@ export default function App() {
 
       if (route.route) {
         if (route.protected) {
-          return(
+          return (
             <Route key={route.key} element={<ProtectedRoute />}>
               <Route path={route.route} element={route.component} />
             </Route>
