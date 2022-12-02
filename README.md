@@ -11,7 +11,8 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 - ✅ Innovative **Soft UI Design** - Crafted by [Creative-Tim](https://bit.ly/3fKQZaL)
 - ✅ React, Redux, Redux-persist
-- ✅ Authentication: JWT Login/Register/Logout
+- ✅ Authentication: `JWT`, `OAuth` via GitHub
+  - The OAuth feature `can be safely used` with: [Node API](https://github.com/app-generator/api-server-nodejs), and [Node API Mongo](https://github.com/app-generator/api-server-nodejs-mongo)
 - ✅ Full-stack ready using **[Node JS API Server](https://appseed.us/boilerplate-code/nodejs-starter/)** (open-source project)
   - Features: Typescript / SQLite / TypeORM / Joy (validation) / Passport library - `passport-jwt` strategy.
 
@@ -64,7 +65,30 @@ $ yarn
 
 <br />
 
-> 👉 **Step #3** - Start in development mode
+> 👉 **Step 3** - Edit the `.env` using the template `.env.sample`. 
+
+```env
+
+REACT_APP_BACKEND_SERVER='http://localhost:5000/api/'
+
+REACT_APP_GITHUB_OAUTH_CLIENT_ID     = ... # Github OAuth Client
+REACT_APP_GITHUB_OAUTH_CLIENT_SECRET = ... # Github OAuth Secret
+REACT_APP_GITHUB_OAUTH_REDIRECT_URL  = ... # Github OAuth Callback URL
+```
+
+<br />
+
+> 👉 **Step #4** - Start the app using `HTTPS` (used bu AOuth Callback)
+
+```bash
+$ export HTTPS=true   # bash
+$ set    HTTPS=true   # Windows/CMD
+$env:HTTPS = "true"   # Windows/Powershell
+```
+
+<br /> 
+
+> 👉 **Step #5** - Start in development mode
 
 ```bash
 $ npm run start 
