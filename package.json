@@ -17,7 +17,7 @@
   },
   "build": {
     "npm": "v14.0.0"
-  },  
+  },
   "dependencies": {
     "@emotion/cache": "11.9.3",
     "@emotion/react": "11.9.3",
@@ -38,6 +38,7 @@
     "react-countup": "6.3.0",
     "react-dom": "18.2.0",
     "react-flatpickr": "3.10.13",
+    "react-loader-spinner": "^5.3.4",
     "react-router-dom": "6.3.0",
     "react-scripts": "5.0.1",
     "stylis": "4.1.1",
