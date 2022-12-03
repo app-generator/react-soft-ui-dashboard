@@ -18,6 +18,10 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
+![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
+
+<br>
+
 ## Tests
 
 > `Compatibility matrix` using Ubuntu `18.04 LTS` as reference.
@@ -29,10 +33,6 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 | `v16.15.0` | ✅ | ✅ | 
 
 <br />
-
-![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
-
-<br>
 
 ## `Video Presentation`
 
