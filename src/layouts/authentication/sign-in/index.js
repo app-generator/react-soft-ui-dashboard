@@ -43,7 +43,10 @@ function SignIn() {
   const navigate = useNavigate();
 
   const [rememberMe, setRememberMe] = useState(true);
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState({
+    'email': '',
+    'password': ''
+  });
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
@@ -159,7 +162,7 @@ function SignIn() {
                   Email
                 </SoftTypography>
               </SoftBox>
-              <SoftInput type="email" name="email" onChange={handleFormData} placeholder="Email" />
+              <SoftInput type="email" name="email" value={formData?.email} onChange={handleFormData} placeholder="Email" />
             </SoftBox>
             <SoftBox mb={2}>
               <SoftBox mb={1} ml={0.5}>
@@ -172,6 +175,7 @@ function SignIn() {
                 name="password"
                 onChange={handleFormData}
                 placeholder="Password"
+                value={formData?.password}
               />
             </SoftBox>
             <SoftBox display="flex" alignItems="center">
