@@ -11,11 +11,13 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 - ✅ Innovative **Soft UI Design** - Crafted by [Creative-Tim](https://bit.ly/3fKQZaL)
 - ✅ React, Redux, Redux-persist
-- ✅ Authentication: `JWT`, `OAuth` via GitHub
-  - The OAuth feature `can be safely used` with: [Node API](https://github.com/app-generator/api-server-nodejs), and [Node API Mongo](https://github.com/app-generator/api-server-nodejs-mongo)
-- ✅ Full-stack ready using **[Node JS API Server](https://appseed.us/boilerplate-code/nodejs-starter/)** (open-source project)
-  - Features: Typescript / SQLite / TypeORM / Joy (validation) / Passport library - `passport-jwt` strategy.
-
+- ✅ Authentication: `JWT Token`, 
+- 🆕 `OAuth` for **Github**
+- 🆕 `Full-stack` ready using servers: 
+  - [Nodejs API Server](https://github.com/app-generator/api-server-nodejs): `JWT` Auth, `OAuth` for **Github** 
+  - [Django API Server](https://github.com/app-generator/api-server-django): `JWT` Auth, `OAuth` for **Github**
+  - [Flask API Server](https://github.com/app-generator/api-server-flask): `JWT` Auth, `OAuth` for **Github**
+  
 <br />
 
 ![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
