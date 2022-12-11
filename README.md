@@ -11,7 +11,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 - ✅ Innovative **Soft UI Design** - Crafted by [Creative-Tim](https://bit.ly/3fKQZaL)
 - ✅ React, Redux, Redux-persist
-- ✅ Authentication: `JWT Token`, 
+- ✅ Authentication: `JWT Token`
 - 🆕 `OAuth` for **Github**
 - 🆕 `Full-stack` ready using servers: 
   - [Nodejs API Server](https://github.com/app-generator/api-server-nodejs): `JWT` Auth, `OAuth` for **Github** 
