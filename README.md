@@ -1,7 +1,6 @@
 # [React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/)
 
 Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Soft UI Dashboard React](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout.
-
 The **React** Design is crafted by [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200) on top of `MUI` Library.
 
 - 👉 [React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) - product page
