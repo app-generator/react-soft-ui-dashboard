@@ -8,7 +8,15 @@ The **React** Design is crafted by [Creative-Tim](https://www.creative-tim.com/?
 
 <br />
 
-> 🚀 Built with **[React App Generator](https://appseed.us/generator/react/)**
+## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `70%Off`
+
+> `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
+ 
+[![](https://github-production-user-asset-6210df.s3.amazonaws.com/51070104/280080081-1e7c91c0-612f-4418-81e7-34c363378479.jpg)](https://appseed.us/)
+
+<br />
+
+## Features
 
 - ✅ Innovative **[Soft UI Design](https://www.creative-tim.com/product/soft-ui-dashboard-react?AFFILIATE=128200)** from `Creative-Tim`
 - ✅ React, Redux, Redux-persist
@@ -17,9 +25,7 @@ The **React** Design is crafted by [Creative-Tim](https://www.creative-tim.com/?
 - 🆕 `Full-stack` ready using servers: 
   - [Nodejs API Server](https://github.com/app-generator/api-server-nodejs): `JWT` Auth, `OAuth` for **Github** 
   - [Django API Server](https://github.com/app-generator/api-server-django): `JWT` Auth, `OAuth` for **Github**
-  - [Flask API Server](https://github.com/app-generator/api-server-flask): `JWT` Auth, `OAuth` for **Github**
-  
-<br />
+  - [Flask API Server](https://github.com/app-generator/api-server-flask): `JWT` Auth, `OAuth` for **Github** 
 
 ![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
 
