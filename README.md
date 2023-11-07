@@ -6,7 +6,7 @@ The **React** Design is crafted by [Creative-Tim](https://www.creative-tim.com/?
 - 👉 [React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) - product page
 - 👉 [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
 
-<br />
+---
 
 ## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `65%Off`
 
