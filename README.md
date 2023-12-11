@@ -4,15 +4,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 The **React** Design is crafted by [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200) on top of `MUI` Library.
 
 - 👉 [React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) - product page
-- 👉 [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
-
----
-
-## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `65%Off`
-
-> `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
- 
-[![](https://github-production-user-asset-6210df.s3.amazonaws.com/51070104/280080081-1e7c91c0-612f-4418-81e7-34c363378479.jpg)](https://appseed.us/)
+- 👉 [React Soft Dashboard](https://node-js-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo 
 
 <br />
 
